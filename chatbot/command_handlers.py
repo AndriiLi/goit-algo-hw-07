@@ -14,8 +14,9 @@ def add_contact(args: tuple[str, str], address_book: AddressBook) -> str:
     record = Record(args[0].strip())
     phone = args[1].strip()
 
-    if address_book.data.get(record.name.value) is not None:
-        raise ValueError(LEVEL_WARNING + ' Contact is already exists')
+    is_exists = address_book.data.get(record.name.value)
+    if is_exists is not None:
+        record = is_exists
 
     record.add_phone(phone)
     address_book.add_record(record)
