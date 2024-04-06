@@ -1,0 +1,8 @@
+name:Alex phones:+380504540789,+380504540790 email:den@gmail.com birthday:06.04.2000
+name:Den phones:+380504540741,+380504540791 email:den@gmail.com birthday:07.04.1980
+name:Ben phones:+380504540742,+380504540792 email:ben@gmail.com birthday:08.04.1980
+name:John phones:+380504540743,+380504540793 email:john@gmail.com birthday:12.04.1980
+name:Rob phones:+380504540744,+380504540794 email:rob@gmail.com birthday:10.04.1980
+name:Kolia phones:+380504561223 email:k@gmail.com
+name:Sveta phones:+380504840759  
+name:Natasha phones:+380504561223,+380674561223  
