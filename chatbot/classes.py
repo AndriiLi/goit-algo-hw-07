@@ -199,7 +199,7 @@ class AddressBook(UserDict):
                     user_birthday_date_this_year = self.__find_next_weekday(user_birthday_date_this_year)
 
                 congratulation_list += (f"{index}.  name: {record.name.value}, birthday: {record.birthday.value}, "
-                                        f"congratulation_date: {user_birthday_date_this_year.strftime('%m.%d.%Y')} \n")
+                                        f"congratulation_date: {user_birthday_date_this_year.strftime('%d.%m.%Y')} \n")
                 index += 1
 
         return congratulation_list
